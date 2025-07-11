@@ -4,20 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BMI Calculator – Hangga Tools</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://hangga-hub.github.io/style.css" />
   <link rel="icon" href="https://hangga-hub.github.io/favicon.ico" type="image/x-icon" />
-
   <meta name="description" content="Dark-themed BMI calculator by Hangga — responsive, fast, and stylish.">
-  <meta name="keywords" content="BMI calculator, dark mode, responsive health tools, Hangga">
 </head>
 <body>
-  <nav>
-    <h1><a href="https://hangga-hub.github.io/">🔧 Hangga Tools</a></h1>
-    <span>BMI Calculator</span>
-  </nav>
+  <div id="navbar"></div>
+
 
   <section id="ad-space">
-    <p>[Ad Space — perfect for fitness gear, diet plans or supplements]</p>
+    <p>[Ad – Fitness gear, nutrition plans or health tools]</p>
   </section>
 
   <main class="container">
@@ -30,20 +26,22 @@
 
     <button onclick="calculateBMI()">Calculate</button>
     <div id="result"></div>
+
+    <div class="share-buttons">
+      <a href="https://x.com/intent/tweet?url=https://hangga-hub.github.io/bmi-calculator" target="_blank">
+        <img src="https://cdn.simpleicons.org/x/white" alt="Share on X" />
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://hangga-hub.github.io/bmi-calculator" target="_blank">
+        <img src="https://cdn.simpleicons.org/facebook/white" alt="Share on Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://hangga-hub.github.io/bmi-calculator" target="_blank">
+        <img src="https://cdn.simpleicons.org/linkedin/white" alt="Share on LinkedIn" />
+      </a>
+    </div>
   </main>
-  <div class="share-buttons">
-    <a href="https://x.com/intent/tweet?url=https://hangga-hub.github.io/bmi-calculator&text=Try%20this%20BMI%20Calculator%20by%20Hangga!" target="_blank">
-      <img src="https://cdn.simpleicons.org/x/white" alt="Share on X" />
-    </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://hangga-hub.github.io/bmi-calculator" target="_blank">
-      <img src="https://cdn.simpleicons.org/facebook/white" alt="Share on Facebook" />
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://hangga-hub.github.io/bmi-calculator" target="_blank">
-      <img src="https://cdn.simpleicons.org/linkedin/white" alt="Share on LinkedIn" />
-    </a>
-  </div>
+
   <footer>
-    <p>Made with ❤️ by Hangga | <a href="https://github.com/hangga-hub/bmi-calculator">View on GitHub</a></p>
+    <p>Made with ❤️ by Hangga | <a href="https://github.com/hangga-hub/bmi-calculator">GitHub</a></p>
   </footer>
 
   <script src="script.js"></script>
